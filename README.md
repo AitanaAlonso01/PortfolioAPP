@@ -1,12 +1,26 @@
-# React + Vite
+# 📌 Portfolio App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Descripción
+Portfolio App es una plataforma moderna diseñada para mostrar proyectos y habilidades de manera profesional. Creada con **React**, permite gestionar y exhibir el trabajo en una **interfaz intuitiva, adaptable y multilenguaje**.  
+Incluye soporte para **modo claro y oscuro, traducciones dinámicas** y un diseño **responsive**, asegurando una experiencia fluida en cualquier dispositivo.  
 
-Currently, two official plugins are available:
+## 🚀 Características
+- 🌐 **Multilenguaje** (Español, Inglés, Valenciano)  
+- 🎨 **Modo claro y oscuro**  
+- 📱 **Diseño responsive**  
+- ⚡ **Optimización de código** y estructura eficiente  
+- 💾 **Gestión de datos** con backend y bases de datos  
+- 🔍 **Accesibilidad y buenas prácticas en UI/UX**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías usadas
+- **Frontend**: React.js, HTML, CSS  
+- **Backend**: Spring Boot, PHP  
+- **Bases de datos**: MySQL, SQL  
+- **Control de versiones**: Git & GitHub  
+- **Metodologías ágiles**: Scrum  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📥 Instalación
+1. **Clona el repositorio**:  
+   ```bash
+   git clone https://github.com/tu-usuario/portfolio-app.git
+   cd portfolio-app
