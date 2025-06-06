@@ -1,0 +1,100 @@
+:root {
+  --bg-light: #ffffff;
+  --text-light: #333;
+  --bg-dark: #121212;
+  --text-dark: #f4f4f4;
+}
+
+/* Ajuste global */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Modo claro */
+.light-theme {
+  background-color: var(--bg-light) !important;
+  color: var(--text-light) !important;
+}
+
+.light-theme body {
+  background-color: var(--bg-light) !important;
+}
+
+.light-theme,
+.light-theme * {
+  color: var(--text-light) !important;
+}
+
+/* Modo oscuro */
+.dark-theme {
+  background-color: var(--bg-dark) !important;
+  color: var(--text-dark) !important;
+}
+
+.dark-theme body {
+  background-color: var(--bg-dark) !important;
+}
+
+.dark-theme,
+.dark-theme * {
+  color: var(--text-dark) !important;
+}
+
+/* Botones */
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button.light-theme {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+button.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+button.light-theme:hover {
+  background-color: #f4f4f4;
+}
+
+button.dark-theme:hover {
+  background-color: #555;
+}
+
+/* Imágenes */
+img {
+  width: 30px;
+}
+
+@media (max-width: 768px) {
+  .perfil-container {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-description {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,100 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Estilos generales */
+.proyectos-container {
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.light .card {
+  background-color: #f4f4f4; /* Color de fondo claro */
+  color: #333;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.projectImg {
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a h3 {
+  margin-bottom: 10px;
+}
+
+/* Modo claro */
+.light a h3 {
+  color: #333;
+}
+
+.light a h3:hover {
+  color: #454750;
+  text-decoration: dashed underline;
+}
+
+/* Modo oscuro */
+.dark a h3 {
+  color: white;
+}
+
+.dark a h3:hover {
+  color: rgb(211, 207, 230);
+  text-decoration: dashed underline;
+}
+
+/* Modo claro */
+.light {
+  background-color: white;
+  color: #333;
+}
+
+/* Modo oscuro */
+.dark {
+  background-color: #121212;
+  color: #f4f4f4;
+}
+
+/* Grid de proyectos */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Tarjetas */
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Modo oscuro para tarjetas */
+.dark .card {
+  background-color: #333;
+  color: white;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}

@@ -1,0 +1,33 @@
+{
+  "translation": {
+    "welcome": "Welcome to my portfolio",
+    "theme": "Change Theme",
+    "portfolioTitle": "My Portfolio",
+    "home": "Home",
+    "subtitle": "Code, design, and continuous learning. Growing as a web developer.",
+    "projects": "Projects",
+    "projectsTitle": "My Projects",
+    "profile": "Profile",
+    "profileName": "Web Developer & DAW Student",
+    "textProfile": "Web Application Development student with a passion for technology, intuitive interface design, and the creation of functional solutions. I stand out for my focus on efficiency, organization, and attention to detail, applying creativity and best practices in every project.",
+    "knowledgesTitle": "Skills and Knowledges",
+    "knowledges": "✔️ Web development with React, JavaScript, HTML, and CSS \n✔️ Databases and SQL management \n✔️ Programming in JavaScript, Python, and Java \n✔️ Backend with PHP and database connection \n✔️ Version control with Git and GitHub \n✔️ Responsive design and user experience (UI/UX) \n✔️ Application of agile methodologies like Scrum",
+    "experienceTitle": "Experience and Learning",
+    "experience": "During my training, I have worked on projects focused on code optimization, accessibility, and structured design. In addition, I have had the opportunity to do internships in professional environments, learning about collaborative development and task management in multidisciplinary teams.",
+    "academicTitle": "Academic Training",
+    "academic": "Superior Degree in Web Application Development (DAW)\nIES Hermanos Amorós – Villena, Alicante\n2024 - Present\n\nMedium Degree in Microinformatics and Networks (SMR)\nInstituto Cots – Alicante\n2022 - 2024\n\nCompulsory Secondary Education (ESO)\nColegio Santa Teresa – Vistahermosa, Alicante\n2018 - 2022",    "workTitle": "Work Experience",
+    "work": "FCT Practices in Lãberit – (2 months/350 hours total)\nSummer Work in Dog Shop and Canine Grooming – (Summer 2023)",
+    "language": "Language",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationContent": "Alicante, Spain",
+    "languageTitle": "Languages",
+    "languageContent": "Spanish (Native), English (B1), Valencian (A2)",
+    "portfolioApp": "Portfolio App",
+    "portfolioAppDesc": "Portfolio App is a modern professional portfolio platform designed to showcase your projects and skills. Built with React, it allows users to manage and showcase their work in an intuitive, adaptable, and multilingual interface. With support for light and dark modes, dynamic translations, and a responsive structure, Portfolio App ensures a fluid user experience on any device. Ideal for developers, designers, and professionals who want to highlight their digital skills.",
+    "crudApp": "CRUD React-SpringBoot-BBDD",
+    "crudAppDesc": "This project is a full-stack web application that allows managing available employees using CRUD operations (Create, Read, Update, Delete). The architecture is based on Spring Boot for the backend, React.js for the frontend, and a MySQL relational database for data storage."
+  }
+}
