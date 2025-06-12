@@ -1,12 +1,29 @@
-# React + Vite
+# Portfolio App en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este documento proporciona las instrucciones para configurar y ejecutar la aplicación Portfolio App utilizando React.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (versión recomendada: 18+)
+- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+
+1. **Clona el repositorio**  
+   ```sh
+   git clone https://github.com/tu_usuario/portfolio-app.git
+   cd portfolio-app
+   ```
+
+2. **Instala las dependencias**  
+   ```sh
+   npm install
+   ```
+
+3. **Inicia el servidor de desarrollo**  
+   ```sh
+   npm run dev
+   ```
